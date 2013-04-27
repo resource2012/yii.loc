@@ -4,24 +4,26 @@
     <list default="true" id="995636d0-55f2-4527-95e8-05d1bc4e3e08" name="Default" comment="" />
     <ignored path="yii.loc.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/chat.js" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367059053948" ignored="false" />
+    <file path="/chat.js" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367064263578" ignored="false" />
     <file path="/a.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367055979546" ignored="false" />
     <file path="/CChatWidget.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367053932764" ignored="false" />
-    <file path="/default.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367055219914" ignored="false" />
+    <file path="/default.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367066400629" ignored="false" />
     <file path="/styles.css" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367057740146" ignored="false" />
-    <file path="/main.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367058809909" ignored="false" />
+    <file path="/main.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367064573781" ignored="false" />
     <file path="/a.html" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367055966891" ignored="false" />
     <file path="/a.js" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367055970014" ignored="false" />
     <file path="/a.sql" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367055973623" ignored="false" />
     <file path="/a.twig" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367055974271" ignored="false" />
     <file path="/a.css" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367055976705" ignored="false" />
-    <file path="/main.css" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367057784548" ignored="false" />
+    <file path="/main.css" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367064704924" ignored="false" />
     <file path="$PROJECT_DIR$/framework/yiilite.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367062669143" ignored="false" />
     <file path="$PROJECT_DIR$/framework/web/js/source/jquery.js" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367062669143" ignored="false" />
     <file path="$PROJECT_DIR$/framework/web/helpers/CHtml.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367062669143" ignored="false" />
     <file path="$PROJECT_DIR$/framework/web/widgets/CWidget.php" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367062669143" ignored="false" />
     <file path="$PROJECT_DIR$/framework/web/js/source/jquery.min.js" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367062669143" ignored="false" />
     <file path="$PROJECT_DIR$/framework/web/js/source/jquery.autocomplete.js" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367062669143" ignored="false" />
+    <file path="/chatWidget.js" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367067012550" ignored="false" />
+    <file path="/chatWidget.css" changelist="995636d0-55f2-4527-95e8-05d1bc4e3e08" time="1367065326781" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +43,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demos/blog/protected/config/main.php">
+      <file leaf-file-name="chatWidget.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/js/chatWidget.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="66" selection-start="916" selection-end="916" vertical-scroll-proportion="0.3752345">
+            <state line="3" column="58" selection-start="109" selection-end="109" vertical-scroll-proportion="0.10676157">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatWidget.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/css/chatWidget.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="28" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CChatWidget.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/CChatWidget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="81" selection-start="484" selection-end="484" vertical-scroll-proportion="-8.275862">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/views/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="-15.862069">
+              <folding>
+                <marker date="1367067113402" expanded="true" signature="444:593" placeholder="..." />
+                <marker date="1367067113402" expanded="true" signature="722:733" placeholder="..." />
+                <marker date="1367067113402" expanded="true" signature="722:796" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +101,13 @@
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/extensions/ChatWidget/js/chat.js" />
         <option value="$PROJECT_DIR$/demos/blog/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/js/chat.js" />
+        <option value="$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/CChatWidget.php" />
+        <option value="$PROJECT_DIR$/demos/blog/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/demos/blog/css/main.css" />
+        <option value="$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/css/chatWidget.css" />
+        <option value="$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/views/default.php" />
+        <option value="$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/js/chatWidget.js" />
       </list>
     </option>
   </component>
@@ -185,7 +225,191 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,7 +491,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25460124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25460124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -346,6 +570,52 @@
     <entry file="file://$PROJECT_DIR$/demos/blog/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="66" selection-start="916" selection-end="916" vertical-scroll-proportion="0.3752345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/blog/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="70" selection-start="1166" selection-end="1166" vertical-scroll-proportion="-7.586207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/blog/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/CChatWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="81" selection-start="484" selection-end="484" vertical-scroll-proportion="-8.275862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/views/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="-15.862069">
+          <folding>
+            <marker date="1367067113402" expanded="true" signature="444:593" placeholder="..." />
+            <marker date="1367067113402" expanded="true" signature="722:733" placeholder="..." />
+            <marker date="1367067113402" expanded="true" signature="722:796" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/css/chatWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="28" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/blog/protected/extensions/ChatWidget/js/chatWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="58" selection-start="109" selection-end="109" vertical-scroll-proportion="0.10676157">
           <folding />
         </state>
       </provider>

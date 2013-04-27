@@ -14,8 +14,8 @@ class CChatWidget extends CWidget {
         $jsAlias = 'application.extensions.ChatWidget.js';
         $cssAlias = 'application.extensions.ChatWidget.css';
 
-        $jsPath = Yii::getPathOfAlias($jsAlias).DIRECTORY_SEPARATOR.'chat.js';
-        $cssPath = Yii::getPathOfAlias($cssAlias).DIRECTORY_SEPARATOR.'styles.css';
+        $jsPath = Yii::getPathOfAlias($jsAlias).DIRECTORY_SEPARATOR.'chatWidget.js';
+        $cssPath = Yii::getPathOfAlias($cssAlias).DIRECTORY_SEPARATOR.'chatWidget.css';
 
         $jsSource = Yii::app()->assetManager->publish($jsPath);
         $cssSource = Yii::app()->assetManager->publish($cssPath);

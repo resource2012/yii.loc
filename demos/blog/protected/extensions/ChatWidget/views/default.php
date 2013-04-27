@@ -6,6 +6,34 @@
     Author e-mail: resource@i.ua
 */
 
+
+Yii::app()->clientScript->registerScript(
+    'ChatScript',
+    'jQuery(document).ready(function(e) {
+
+        var chatController = new window.ChatWidget();
+    });',
+    CClientScript::POS_HEAD
+);
+
+Yii::app()->clientScript->registerScript(
+    'ChatLayoutMessage',
+    '<div class="message-item" data-id="{{id}}">
+        <span class="time">{{sended}}</span>
+        <span class="user">{{username}}</span>
+        <span class="text">{{message}}</span>
+    </div>',
+    CClientScript::POS_HEAD
+);
+
+Yii::app()->clientScript->registerScript(
+    'ChatLayoutError',
+    '<div class="error-item">
+        We\'re sorry, but chat is not available at the moment.
+    </div>',
+    CClientScript::POS_HEAD
+);
+
 ?>
 <div id="widgetChat">
     <div class="left-column" title="Chat">

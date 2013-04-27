@@ -1,0 +1,128 @@
+#widgetChat {
+
+    margin: -122px -404px 0 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 5000;
+}
+
+#widgetChat .left-column {
+
+    width: 0;
+    height: 250px;
+    float: left;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-right: 25px solid #C9E0ED;
+    cursor: pointer;
+}
+
+#widgetChat .left-column .inner-trap {
+
+    width: 0;
+    height: 245px;
+    margin: -7px 0 0 5px;
+    position: absolute;
+    border-bottom: 9px solid transparent;
+    border-top: 9px solid transparent;
+    border-right: 15px solid #FFFFFF;
+}
+
+#widgetChat .left-column .inner-trap .triangle {
+
+    width: 0;
+    height: 0;
+    margin: -20px 0 0 2px;
+    position: absolute;
+    top: 50%;
+    z-index: 500;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right: 10px solid #C9E0ED;
+}
+
+#widgetChat.visible .left-column .inner-trap .triangle {
+
+    border-right: 0;
+    border-left: 10px solid #C9E0ED;
+}
+
+#widgetChat .left-column .inner-trap .triangle .inner-triangle {
+
+    width: 0;
+    height: 0;
+    margin: -12px 0 0 5px;
+    position: absolute;
+    top: 50%;
+    z-index: 600;
+    border-bottom: 12px solid transparent;
+    border-top: 12px solid transparent;
+    border-right: 5px solid #FFFFFF;
+}
+
+#widgetChat.visible .left-column .inner-trap .triangle .inner-triangle {
+
+    border-right: 0;
+    border-left: 5px solid #FFFFFF;
+}
+
+#widgetChat .right-column {
+
+    width: 400px;
+    height: 272px;
+    float: left;
+    background: #ffffff;
+    border: solid 4px #C9E0ED;
+    border-left: 0;
+}
+
+#widgetChat .right-column .messages {
+
+    width: auto;
+    height: 200px;
+    margin: 0;
+    padding: 10px;
+    display: block;
+    border-bottom: solid 3px #C9E0ED;
+}
+
+#widgetChat .right-column .bottom-bar {
+
+}
+
+#widgetChat .right-column .bottom-bar .column {
+
+    float: left;
+}
+
+#widgetChat .right-column .bottom-bar .column.text input {
+
+    width: 280px;
+    height: 20px;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    border: solid 2px #C9E0ED;
+}
+
+#widgetChat .right-column .bottom-bar .column.submit input {
+
+    width: 70px;
+    height: 20px;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    background: #ffffff;
+    border: solid 2px #C9E0ED;
+    font: bold 12px Tahoma;
+    color: #298dcd;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+#widgetChat .right-column .bottom-bar .column.submit input:hover {
+
+    background: #C9E0ED;
+    border: solid 2px #C9E0ED;
+    color: #ffffff;
+}
