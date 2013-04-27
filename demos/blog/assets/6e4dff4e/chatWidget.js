@@ -219,7 +219,7 @@ var ChatWidget = function() {
     };
 
     /**
-     * Slide container left, add extra class "visible".
+     * Slide container left, add extra class.
      */
     this.showContainer = function() {
 
@@ -233,9 +233,6 @@ var ChatWidget = function() {
         });
     };
 
-    /**
-     * Slide container right, remove extra class "visible".
-     */
     this.hideContainer = function() {
 
         this.container.animate({
@@ -248,20 +245,14 @@ var ChatWidget = function() {
         });
     };
 
-
-    /**
-     * Add event listeners for user controls.
-     */
     this.addEventListeners = function() {
 
-        // add listener to <form>, when sending message
         this.formContainer.submit(function(e) {
 
             e.preventDefault();
             self.sendMessage();
         });
 
-        // add listener for left button, for sliding
         this.buttonExpand.click(function(e) {
 
             e.preventDefault();
@@ -270,24 +261,12 @@ var ChatWidget = function() {
 
     };
 
-
-    /**
-     * Load empty layouts text to the object's properties
-     */
     this.loadLayouts = function() {
 
         this.layoutError = jQuery('script[type="layout/chatError"]').html();
         this.layoutMessage = jQuery('script[type="layout/chatMessage"]').html();
     };
 
-
-    /**
-     * Initialise controller:
-     * - cache required DOM objects pointers
-     * - load layouts
-     * - add events listeners
-     * - send request to server to retrieve las messages
-     */
     this.init = function() {
 
         this.container = jQuery('#widgetChat');
@@ -301,6 +280,5 @@ var ChatWidget = function() {
         this.getMessages(true);
     };
 
-    // run initialisation on object creation
     this.init();
 };

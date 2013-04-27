@@ -1,11 +1,19 @@
 <?php
-/**
-    Copyright (c) seon.com.ua 2013
-    E-mail: info@seon.com.ua
-    Author: Vic Vl
-    Author e-mail: resource@i.ua
-*/
+/* @param $this CWidget */
 
+/**
+ * @package    ChatWidget
+ * @author     Vic Vl <resource@i.ua>
+ * @copyright  seon.com.ua 2013
+ * @license   http://www.gnu.org/licenses/gpl.html  GPL v.3 or later
+ * @author e-mail: resource@i.ua
+ *
+ * Chat widget template.
+ */
+
+
+
+// add js controller object initialisation to the page heading
 Yii::app()->clientScript->registerScript(
     'ChatScript',
     'jQuery(document).ready(function(e) {
@@ -16,11 +24,11 @@ Yii::app()->clientScript->registerScript(
 );
 
 ?>
-
+<!--layouts for script-->
 <script type="layout/chatMessage">
     <div class="message-item" data-id="{{id}}">
         <span class="time">{{sended}}</span>
-        <span class="user">{{username}}</span>
+        <span class="user">{{username}}</span>:
         <span class="text">{{message}}</span>
     </div>
 </script>
@@ -30,6 +38,8 @@ Yii::app()->clientScript->registerScript(
         We're sorry, but chat is not available at the moment.
     </div>
 </script>
+<!--/layouts for script-->
+
 
 
 <div id="widgetChat">

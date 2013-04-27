@@ -52,6 +52,16 @@ CREATE TABLE tbl_tag
 	frequency INTEGER DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+
+CREATE TABLE tbl_chat (
+  id bigint(20) NOT NULL AUTO_INCREMENT,
+  id_sender int(11) NOT NULL,
+  message varchar(100) NOT NULL DEFAULT '',
+  sended datetime NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+
+
 INSERT INTO tbl_lookup (name, type, code, position) VALUES ('Draft', 'PostStatus', 1, 1);
 INSERT INTO tbl_lookup (name, type, code, position) VALUES ('Published', 'PostStatus', 2, 2);
 INSERT INTO tbl_lookup (name, type, code, position) VALUES ('Archived', 'PostStatus', 3, 3);

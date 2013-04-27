@@ -1,6 +1,11 @@
 <?php
-
 /**
+ * @author     Vic Vl <resource@i.ua>
+ * @copyright  seon.com.ua 2013
+ * @license   http://www.gnu.org/licenses/gpl.html  GPL v.3 or later
+ * @author e-mail: resource@i.ua
+ *
+ *
  * This is the model class for table "tbl_chat".
  *
  * The followings are the available columns in table 'tbl_chat':
@@ -11,6 +16,8 @@
  */
 class Chat extends CActiveRecord
 {
+    public $username;
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -93,16 +100,13 @@ class Chat extends CActiveRecord
 
 
     /**
-     * @param $idStart int
-     * @return array
-     *
      * Function for retrieving last stored in the chat messages.
      * $idStart specifies the last obtained by client message id, if
      * equal to 0 - client connected to the chat in the first time,
      * in this case number of returned messages fixed to 15
      *
-     *
-     *
+     * @param $idStart int
+     * @return array
      */
     public function getLastMessages($idStart) {
 
@@ -111,14 +115,12 @@ class Chat extends CActiveRecord
 
         // prepare query
         $command->select(
-                    array(
-                        "t1.*",
-                        "t2.username",
-                        "DATE_FORMAT(t1.sended, '%m/%e/%Y, %k:%i:%s') as sended"
-                    )
+                        "t1.*,
+                        t2.username as username,
+                        DATE_FORMAT(t1.sended, '%m/%e/%Y, %T') as sended"
                 )
                 ->from('{{chat}} as t1')
-                ->leftJoin('{{users}} as t2', 't1.id_sender = t2.id')
+                ->leftJoin('{{user}} as t2', 't1.id_sender = t2.id')
                 ->where(
                     array(
                         'AND',
@@ -141,12 +143,17 @@ class Chat extends CActiveRecord
 
     public function storeMessage($messageData) {
 
-        $this->setAttributes($messageData);
+        $store = array();
+        $uid = (int)Yii::app()->user->id;
+
+        // prepare data for saving
+        $store['message'] = htmlspecialchars($messageData['message']);
+        $store['id_sender'] = $uid;
+        $store['sended'] = date('Y-m-d H:i:s');
+
+        $this->setAttributes($store);
         $status = $this->insert();
-        $attrs = $this->getAttributes();
 
-        $result = $status ? $attrs : false;
-
-        return $result;
+        return $status;
     }
 }

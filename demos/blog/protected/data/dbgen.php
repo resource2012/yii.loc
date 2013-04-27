@@ -1,7 +1,7 @@
 <?php
 
 $dbFile=dirname(__FILE__).'/blog.db';
-$sqlFile=dirname(__FILE__).'/schema.sqlite.sql';
+$sqlFile=dirname(__FILE__).'/schema.mysql.sql';
 
 @unlink($dbFile);
 $db=new PDO('sqlite:'.$dbFile);
