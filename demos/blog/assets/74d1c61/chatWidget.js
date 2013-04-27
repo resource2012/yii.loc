@@ -99,30 +99,11 @@ var ChatWidget = function() {
         jQuery.post(
             this.URL_SEND,
             data,
-            function(response) {
-
-                self.sendMessageCallback(response);
-            },
+            function(response) {},
             'json'
         );
     };
 
-
-    this.sendMessageCallback = function(response) {
-
-        var text = null;
-
-        if (response.status) {
-
-            this.lastMessageId = data.response.records.id;
-            text = this.drawMessage(data.response.records);
-            this.messagesContainer.append(text);
-
-        } else {
-
-            this.drawServiceError();
-        }
-    };
 
     this.slideContainer = function() {
 

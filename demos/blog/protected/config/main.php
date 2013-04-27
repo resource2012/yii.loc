@@ -17,7 +17,6 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
-
 	'defaultController'=>'post',
 
 	// application components
